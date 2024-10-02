@@ -1,0 +1,101 @@
+/* figure */
+
+figure {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  /*display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    'wineglass      wineglass       geometrical_heart   geometrical_heart'
+    'braid          braid           holding_hands       holding_hands'
+    'two_thumbler   two_thumbler    two_thumbler        two_thumbler'
+    'two_arms       two_arms        MM                 MM'
+    'mountains      mountains       hand_with_heart     hand_with_heart'
+    'street         street          street              street'
+    'avocato        avocato         anatomical_heart    anatomical_heart '
+    'flowers        flowers         onethumbler         onethumbler'
+    'coffeelover    coffeelover     hexagon             hexagon'
+    'leaf           leaf            leaf                leaf';
+}
+
+.anatomical_heart {
+  grid-area: anatomical_heart;
+}
+
+.geometrical_heart {
+  grid-area: geometrical_heart;
+}
+
+.mountains {
+  grid-area: mountains;
+}
+
+.two_thumbler {
+  grid-area: two_thumbler;
+}
+
+.wineglass {
+  grid-area: wineglass;
+}
+
+.hand_with_heart {
+  grid-area: hand_with_heart;
+}
+
+.braid {
+  grid-area: braid;
+}
+
+.holding_hands {
+  grid-area: holding_hands;
+}
+
+.two_arms {
+  grid-area: two_arms;
+}
+
+.coffeelover {
+  grid-area: coffeelover;
+}
+
+.street_view {
+  grid-area: street;
+}
+
+.To-Go-thumbler {
+  grid-area: onethumbler;
+}
+
+.avo-cat-o {
+  grid-area: avocato;
+}
+
+.leaf {
+  grid-area: leaf;
+}
+
+.flowers {
+  grid-area: flowers;
+}
+
+.minnimouse {
+  grid-area: MM;
+}
+
+.hexagon {
+  grid-area: hexagon;
+}
+  */
+}
+img {
+  width: 150%;
+  max-width: 200px;
+  object-fit: cover;
+  border: 5px solid grey;
+  border-radius: 20px;
+}
